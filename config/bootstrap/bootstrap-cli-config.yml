@@ -55,17 +55,17 @@ bootstrap:
     # Mapping between IDP (Azure Active Directory) groups and CDF groups.
     idp-cdf-mappings:
     # Support multiple CDF Projects, like dev/test/prod in one config. 
-        - cdf-project: [cdf-bootcamp-09-test]
+        - cdf-project: cdf-bootcamp-09-test
           mappings:
               - cdf-group: cdf:root
-                idp-source-id: cdf-bootcamp-09-test-admin
-                idp-source-name: 3124bb73-8dab-4172-b6c8-f754e89c19de
+                idp-source-id: 3124bb73-8dab-4172-b6c8-f754e89c19de
+                idp-source-name: bootcamp-09-test-admin
               - cdf-group: cdf:all:owner
-                idp-source-id: bootcamp-09-test-all-owner
-                idp-source-name: bceac660-e9e3-47d0-aee1-7cdf0ee4026c
+                idp-source-id: bceac660-e9e3-47d0-aee1-7cdf0ee4026c
+                idp-source-name: bootcamp-09-test-all-owner
               - cdf-group: cdf:all:read
-                idp-source-id: bootcamp-09-test-all-read
-                idp-source-name: 62ef60d6-e860-470c-ba7c-ebe3dcc47cad
+                idp-source-id: 62ef60d6-e860-470c-ba7c-ebe3dcc47cad
+                idp-source-name: bootcamp-09-test-all-read
 
 
     namespaces:
@@ -78,7 +78,7 @@ bootstrap:
               - node-name: src:001:sap
                 description: Source 01 data from SAP
               - node-name: src:002:opcua
-          	description: Source 02 data from opcua
+                description: Source 02 data from opcua
 
 
 # de-facto standards for CDF CogniteClient and logger configuration.
