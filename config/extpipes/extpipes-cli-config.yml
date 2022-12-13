@@ -47,7 +47,7 @@ rawdbs:
                   contacts:
                       - name: vdevgun
                         email: vdvgun@slb.com
-                        role: Bootcamp 09 Administrator
+                        role: Bootcamp 09 Admin
                         send-notification: false
 
     - rawdb-name: src:002:opcua:db
