@@ -33,7 +33,7 @@ bootstrap:
           idp-source-name: bootcamp-09-prod-all-owner
         - cdf-group: cdf:all:read
           idp-source-id: d9bba19a-8783-4a03-95d2-835186d7af49
-          idp-source-name: bootcamp-27-prod-all-read
+          idp-source-name: bootcamp-09-prod-all-read
 
   namespaces:
     # Typical config will have separate namespace by data source ("src") and use cases ("uc")
