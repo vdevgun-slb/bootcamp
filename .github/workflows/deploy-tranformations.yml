@@ -20,16 +20,16 @@ jobs:
                 include:
                     - environment: test
                       # CDF cluster, like bluefield or greenfield
-                      CDF_CLUSTER: cdf-bootcamp-09-test
+                      CDF_CLUSTER: westeurope-1
                       # CDF Project name
-                      CDF_PROJECT: westeurope-1
+                      CDF_PROJECT: cdf-bootcamp-09-test
                       # Azure AD tenant id
                       IDP_TENANT: 16e3985b-ebe8-4e24-9da4-933e21a9fc81
                     - environment: prod
                       # CDF cluster, like bluefield or greenfield
-                      CDF_CLUSTER: cdf-bootcamp-09-prod
+                      CDF_CLUSTER: westeurope-1
                       # CDF Project name
-                      CDF_PROJECT: westeurope-1
+                      CDF_PROJECT: cdf-bootcamp-09-prod
                       # Azure AD tenant id
                       IDP_TENANT: 16e3985b-ebe8-4e24-9da4-933e21a9fc81
 
